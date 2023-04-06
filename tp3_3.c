@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <time.h>
-
-void liberar(char **nombres);
-
 
 int main(){
     char **nombres = (char **)malloc(sizeof(char *) * 5), *buffer;
